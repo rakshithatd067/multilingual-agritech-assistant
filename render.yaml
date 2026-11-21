@@ -17,7 +17,7 @@ services:
       - key: FRONTEND_ORIGIN
         fromService:
           type: web
-          name: fieldwise-frontend
+          name: multilingual-agritech-assistant
           envVarKey: RENDER_EXTERNAL_URL
       - key: FLASK_DEBUG
         value: "false"
@@ -34,7 +34,7 @@ services:
 
   - type: web
     runtime: static
-    name: fieldwise-frontend
+    name: multilingual-agritech-assistant
     rootDir: frontend
     buildCommand: npm ci && npm run build
     staticPublishPath: dist
