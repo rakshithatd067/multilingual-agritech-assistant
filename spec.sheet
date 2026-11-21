@@ -1,0 +1,101 @@
+# Build: Multilingual Agritech & Resource Advisory Assistant
+
+Build a simple, fully functional AI-powered web application called **Multilingual Agritech & Resource Advisory Assistant**.
+
+## Project Goal
+Help farmers make better farming decisions using weather forecasts, mandi prices and soil information. Provide crop recommendations, planting and harvesting guidance, and crop protection suggestions in simple regional languages through text and voice.
+
+## Technology
+- Frontend: React.js, HTML, CSS and JavaScript
+- Backend: Python Flask
+- AI: Groq API
+- Weather: OpenWeather API
+- Mandi prices: Government Agmarknet or data.gov.in API
+- Database: SQLite
+- Voice: Web Speech API and Speech Synthesis
+- Deployment: Render
+
+## Required Features
+
+1. Dashboard:
+   - Welcome section.
+   - Weather summary.
+   - Mandi price summary.
+   - Farming recommendations.
+   - Navigation to all pages.
+
+2. AI Chat Assistant:
+   - Text-based chat.
+   - Voice input.
+   - AI-generated responses.
+   - Support Kannada, English and Hindi.
+   - Allow users to select their preferred language.
+
+3. Weather Information:
+   - Ask for location.
+   - Display temperature, rainfall, humidity and forecast.
+   - Generate weather-based farming advice.
+
+4. Mandi Prices:
+   - Search by crop name.
+   - Show market name.
+   - Show minimum, maximum and modal prices.
+   - Display data date and source.
+
+5. Soil Information:
+   - Allow users to enter soil type, pH, nitrogen, phosphorus and potassium values.
+   - Recommend suitable crops based on available information.
+
+6. Crop Recommendations:
+   - Suggest suitable crops.
+   - Give planting guidance.
+   - Give estimated harvesting periods.
+   - Provide basic crop protection suggestions.
+
+7. Voice:
+   - Allow farmers to speak questions.
+   - Read AI responses aloud.
+   - Support available regional speech languages.
+   - Provide text input as a fallback.
+
+## UI Requirements
+- Modern, clean agricultural dashboard.
+- Green and white color theme.
+- Responsive mobile-friendly layout.
+- Simple navigation and readable text.
+- Easy-to-use cards, buttons and forms.
+- Chat interface with clear user and assistant messages.
+
+## Backend Requirements
+- Create Flask API endpoints.
+- Integrate Groq API securely.
+- Integrate weather API.
+- Integrate mandi price data API.
+- Create soil and crop recommendation services.
+- Use SQLite if data storage is required.
+- Store API keys in environment variables.
+- Include error handling and loading states.
+
+## Important Rules
+- Use actual API data when available.
+- Never invent weather forecasts or mandi prices.
+- Show source and date for market information.
+- If an API is unavailable, display a clear unavailable-data message.
+- Clearly distinguish AI estimates from verified information.
+- Do not provide guaranteed crop yield or profit predictions.
+- Keep the application beginner-friendly and easy to maintain.
+
+## Deliverables
+1. Complete frontend code.
+2. Complete backend code.
+3. requirements.txt.
+4. .env.example.
+5. README.md with setup instructions.
+6. API integration instructions.
+7. Local running instructions.
+
+Generate all necessary files with complete working code. Do not provide only code snippets or explanations.
+
+First create the project structure, then implement the frontend and backend, connect the APIs, test the application and fix errors.
+
+Keep the first version simple and functional. Do not add unnecessary advanced features. see this is my project
